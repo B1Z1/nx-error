@@ -1,0 +1,41 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/util/basic/circle/src",
+  "prefix": "nx-error",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/util/basic/circle"],
+      "options": {
+        "project": "libs/util/basic/circle/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/util/basic/circle/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/util/basic/circle/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/util/basic/circle"],
+      "options": {
+        "jestConfig": "libs/util/basic/circle/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/util/basic/circle/**/*.ts",
+          "libs/util/basic/circle/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

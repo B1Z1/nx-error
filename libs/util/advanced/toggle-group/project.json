@@ -1,0 +1,41 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/util/advanced/toggle-group/src",
+  "prefix": "nx-error",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/util/advanced/toggle-group"],
+      "options": {
+        "project": "libs/util/advanced/toggle-group/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/util/advanced/toggle-group/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/util/advanced/toggle-group/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/util/advanced/toggle-group"],
+      "options": {
+        "jestConfig": "libs/util/advanced/toggle-group/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/util/advanced/toggle-group/**/*.ts",
+          "libs/util/advanced/toggle-group/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

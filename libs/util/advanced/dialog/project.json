@@ -1,0 +1,41 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/util/advanced/dialog/src",
+  "prefix": "nx-error",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/util/advanced/dialog"],
+      "options": {
+        "project": "libs/util/advanced/dialog/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/util/advanced/dialog/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/util/advanced/dialog/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/util/advanced/dialog"],
+      "options": {
+        "jestConfig": "libs/util/advanced/dialog/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/util/advanced/dialog/**/*.ts",
+          "libs/util/advanced/dialog/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

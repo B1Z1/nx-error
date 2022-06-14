@@ -1,0 +1,41 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/util/advanced/search/src",
+  "prefix": "nx-error",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/util/advanced/search"],
+      "options": {
+        "project": "libs/util/advanced/search/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/util/advanced/search/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/util/advanced/search/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/util/advanced/search"],
+      "options": {
+        "jestConfig": "libs/util/advanced/search/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/util/advanced/search/**/*.ts",
+          "libs/util/advanced/search/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
