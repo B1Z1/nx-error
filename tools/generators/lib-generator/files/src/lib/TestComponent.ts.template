@@ -1,0 +1,3 @@
+<% imports.forEach(function(import) { %>
+  import '<% import %>';
+<% }); %>
