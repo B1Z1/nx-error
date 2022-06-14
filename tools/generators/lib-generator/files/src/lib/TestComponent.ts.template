@@ -1,3 +1,4 @@
-<% imports.forEach(function(imp) { %>
-  import '<%= imp %>';
-<% }); %>
+<% imports.forEach(function(imp) { %> import '@app/<%= imp %>'; <% }); %>
+
+export class Component {
+}
