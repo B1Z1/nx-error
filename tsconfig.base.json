@@ -15,51 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-error/util/advanced/dialog": [
-        "libs/util/advanced/dialog/src/index.ts"
-      ],
-      "@nx-error/util/advanced/dropdown": [
-        "libs/util/advanced/dropdown/src/index.ts"
-      ],
-      "@nx-error/util/advanced/dropdown-item": [
-        "libs/util/advanced/dropdown-item/src/index.ts"
-      ],
-      "@nx-error/util/advanced/inline-dialog": [
-        "libs/util/advanced/inline-dialog/src/index.ts"
-      ],
-      "@nx-error/util/advanced/search": [
-        "libs/util/advanced/search/src/index.ts"
-      ],
-      "@nx-error/util/advanced/select": [
-        "libs/util/advanced/select/src/index.ts"
-      ],
-      "@nx-error/util/advanced/sidebar": [
-        "libs/util/advanced/sidebar/src/index.ts"
-      ],
-      "@nx-error/util/advanced/toggle-group": [
-        "libs/util/advanced/toggle-group/src/index.ts"
-      ],
-      "@nx-error/util/basic/button": ["libs/util/basic/button/src/index.ts"],
-      "@nx-error/util/basic/buttons": ["libs/util/basic/buttons/src/index.ts"],
-      "@nx-error/util/basic/checkbox": [
-        "libs/util/basic/checkbox/src/index.ts"
-      ],
-      "@nx-error/util/basic/circle": ["libs/util/basic/circle/src/index.ts"],
-      "@nx-error/util/basic/colored-icon": [
-        "libs/util/basic/colored-icon/src/index.ts"
-      ],
-      "@nx-error/util/basic/icon": ["libs/util/basic/icon/src/index.ts"],
-      "@nx-error/util/basic/icon-picker": [
-        "libs/util/basic/icon-picker/src/index.ts"
-      ],
-      "@nx-error/util/basic/input": ["libs/util/basic/input/src/index.ts"],
-      "@nx-error/util/basic/lozenge": ["libs/util/basic/lozenge/src/index.ts"],
-      "@nx-error/util/basic/radio": ["libs/util/basic/radio/src/index.ts"],
-      "@nx-error/util/basic/tag": ["libs/util/basic/tag/src/index.ts"],
-      "@nx-error/util/layout/card": ["libs/util/layout/card/src/index.ts"],
-      "@nx-error/util/layout/card-list": [
-        "libs/util/layout/card-list/src/index.ts"
-      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

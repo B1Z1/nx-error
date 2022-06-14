@@ -49,9 +49,24 @@
       ]
     },
     {
+      "name": "checkbox-1",
+      "directory": "util/basic",
+      "imports": [
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "checkbox-2",
+      "directory": "util/basic",
+      "imports": [
+        "util/basic/lozenge"
+      ]
+    },
+    {
       "name": "radio",
       "directory": "util/basic",
       "imports": [
+        "util/basic/lozenge"
       ]
     },
     {
@@ -78,10 +93,216 @@
       ]
     },
     {
+      "name": "card-1",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/button",
+        "util/basic/tag",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "card-2",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "card-3",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/tag",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "card-4",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/tag",
+        "util/basic/lozenge"
+      ]
+    },
+    {
       "name": "card-list",
       "directory": "util/layout",
       "imports": [
         "util/basic/card"
+      ]
+    },
+    {
+      "name": "grid",
+      "directory": "util/layout",
+      "imports": [
+      ]
+    },
+    {
+      "name": "container",
+      "directory": "util/layout",
+      "imports": [
+      ]
+    },
+    {
+      "name": "header",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/button",
+        "ngplant/basic/buttons",
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "header-1",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "header-2",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "header-3",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "footer",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/button",
+        "ngplant/basic/buttons",
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "footer-1",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/button",
+        "ngplant/basic/buttons",
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "footer-2",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/button",
+        "ngplant/basic/buttons",
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "footer-3",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/button",
+        "ngplant/basic/buttons",
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag"
+      ]
+    },
+    {
+      "name": "flex",
+      "directory": "util/layout",
+      "imports": [
+      ]
+    },
+    {
+      "name": "header-grid",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag",
+        "ngplant/layout/header"
+      ]
+    },
+    {
+      "name": "page",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/circle",
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag",
+        "ngplant/layout/header",
+        "ngplant/layout/header-grid",
+        "ngplant/layout/footer"
+      ]
+    },
+    {
+      "name": "page-1",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/checkbox",
+        "ngplant/basic/radio",
+        "ngplant/basic/tag",
+        "ngplant/layout/header",
+        "ngplant/layout/header-grid",
+        "ngplant/layout/footer"
+      ]
+    },
+    {
+      "name": "page-2",
+      "directory": "util/layout",
+      "imports": [
+        "ngplant/basic/colored-icon",
+        "ngplant/basic/input",
+        "ngplant/basic/tag",
+        "ngplant/layout/header",
+        "ngplant/layout/header-grid",
+        "ngplant/layout/footer"
       ]
     },
     {
@@ -120,7 +341,44 @@
       ]
     },
     {
+      "name": "select-1",
+      "directory": "util/advanced",
+      "imports": [
+        "util/advanced/search"
+      ]
+    },
+    {
+      "name": "select-2",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/advanced/search"
+      ]
+    },
+    {
       "name": "toggle-group",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge",
+        "util/basic/radio",
+        "util/advanced/dropdown-item",
+        "util/advanced/dropdown"
+      ]
+    },
+    {
+      "name": "toggle-group-1",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge",
+        "util/basic/radio",
+        "util/advanced/dropdown-item",
+        "util/advanced/dropdown"
+      ]
+    },
+    {
+      "name": "toggle-group-2",
       "directory": "util/advanced",
       "imports": [
         "util/basic/button",
@@ -158,6 +416,103 @@
         "util/basic/dropdown",
         "util/basic/dropdown-item",
         "util/basic/select"
+      ]
+    },
+    {
+      "name": "links",
+      "directory": "util/advanced",
+      "imports": [
+      ]
+    },
+    {
+      "name": "timeline-scheduler",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/input",
+        "util/basic/checkbox",
+        "util/basic/radio",
+        "util/basic/dropdown",
+        "util/basic/dropdown-item",
+        "util/basic/select",
+        "util/basic/icon",
+        "util/basic/icon-picker"
+      ]
+    },
+    {
+      "name": "gantt",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/buttons",
+        "util/basic/checkbox",
+        "util/basic/circle",
+        "util/basic/colored-icon",
+        "util/basic/icon",
+        "util/basic/icon-picker",
+        "util/basic/lozenge",
+        "util/layout/card",
+        "util/layout/card-list",
+        "util/layout/header",
+        "util/layout/header-grid",
+        "util/advanced/search",
+        "util/advanced/select",
+        "util/advanced/links"
+      ]
+    },
+    {
+      "name": "game",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/buttons",
+        "util/basic/checkbox",
+        "util/basic/circle",
+        "util/basic/colored-icon",
+        "util/basic/icon",
+        "util/basic/icon-picker",
+        "util/basic/lozenge",
+        "util/layout/card",
+        "util/layout/card-list",
+        "util/layout/header",
+        "util/layout/header-grid",
+        "util/advanced/search",
+        "util/advanced/select",
+        "util/advanced/links",
+        "util/advanced/gantt"
+      ]
+    },
+    {
+      "name": "gantt-1",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/buttons",
+        "util/basic/checkbox",
+        "util/basic/lozenge",
+        "util/layout/card",
+        "util/layout/card-list",
+        "util/layout/header",
+        "util/layout/header-grid",
+        "util/advanced/search",
+        "util/advanced/select",
+        "util/advanced/links"
+      ]
+    },
+    {
+      "name": "form",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/buttons",
+        "util/basic/checkbox",
+        "util/basic/radio",
+        "util/basic/search",
+        "util/basic/input",
+        "util/layout/card",
+        "util/layout/grid",
+        "util/layout/flex",
+        "util/advanced/toggle-group"
       ]
     }
   ]

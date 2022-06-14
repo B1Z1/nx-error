@@ -3,27 +3,6 @@
   "version": 2,
   "projects": {
     "nx-error": "apps/nx-error",
-    "nx-error-e2e": "apps/nx-error-e2e",
-    "util-advanced-dialog": "libs/util/advanced/dialog",
-    "util-advanced-dropdown": "libs/util/advanced/dropdown",
-    "util-advanced-dropdown-item": "libs/util/advanced/dropdown-item",
-    "util-advanced-inline-dialog": "libs/util/advanced/inline-dialog",
-    "util-advanced-search": "libs/util/advanced/search",
-    "util-advanced-select": "libs/util/advanced/select",
-    "util-advanced-sidebar": "libs/util/advanced/sidebar",
-    "util-advanced-toggle-group": "libs/util/advanced/toggle-group",
-    "util-basic-button": "libs/util/basic/button",
-    "util-basic-buttons": "libs/util/basic/buttons",
-    "util-basic-checkbox": "libs/util/basic/checkbox",
-    "util-basic-circle": "libs/util/basic/circle",
-    "util-basic-colored-icon": "libs/util/basic/colored-icon",
-    "util-basic-icon": "libs/util/basic/icon",
-    "util-basic-icon-picker": "libs/util/basic/icon-picker",
-    "util-basic-input": "libs/util/basic/input",
-    "util-basic-lozenge": "libs/util/basic/lozenge",
-    "util-basic-radio": "libs/util/basic/radio",
-    "util-basic-tag": "libs/util/basic/tag",
-    "util-layout-card": "libs/util/layout/card",
-    "util-layout-card-list": "libs/util/layout/card-list"
+    "nx-error-e2e": "apps/nx-error-e2e"
   }
 }
