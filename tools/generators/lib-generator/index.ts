@@ -12,11 +12,10 @@ export default async function (tree: Tree, schema: LibGeneratorProps) {
   for (const graphItem of graph.libraries) {
     await libraryGenerator(tree, { name: graphItem.name, directory: graphItem.directory });
 
-    const libraryRoot = readProjectConfiguration(tree, graphItem.name).root;
+    const fullLibraryName = `${ graphItem.directory.replace('/', '-') }-${ graphItem.name }`;
+    const libraryRoot = readProjectConfiguration(tree, fullLibraryName).root;
 
-    console.log(libraryRoot);
-
-    // generateFiles(tree, joinPathFragments(__dirname, './files'), libraryRoot, { imports: graphItem.imports });
+    generateFiles(tree, joinPathFragments(__dirname, './files'), libraryRoot, { imports: graphItem.imports });
   }
 
   return () => {
