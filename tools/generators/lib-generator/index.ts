@@ -10,12 +10,14 @@ export default async function (tree: Tree, schema: LibGeneratorProps) {
   const graph: Graph = JSON.parse(fs.readFileSync(graphPath).toString());
 
   for (const graphItem of graph.libraries) {
-    await libraryGenerator(tree, { name: graphItem.name, directory: graphItem.directory });
+    await libraryGenerator(tree, { name: graphItem.name, directory: graphItem.directory, buildable: true });
 
-    const fullLibraryName = `${ graphItem.directory.replace('/', '-') }-${ graphItem.name }`;
-    const libraryRoot = readProjectConfiguration(tree, fullLibraryName).root;
+    if (graphItem.imports.length > 0) {
+      const fullLibraryName = `${ graphItem.directory.replace('/', '-') }-${ graphItem.name }`;
+      const libraryRoot = readProjectConfiguration(tree, fullLibraryName).root;
 
-    generateFiles(tree, joinPathFragments(__dirname, './files'), libraryRoot, { imports: graphItem.imports });
+      generateFiles(tree, joinPathFragments(__dirname, './files'), libraryRoot, { imports: graphItem.imports });
+    }
   }
 
   return () => {

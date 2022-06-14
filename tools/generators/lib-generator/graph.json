@@ -3,8 +3,161 @@
     {
       "name": "button",
       "directory": "util/basic",
+      "imports": []
+    },
+    {
+      "name": "buttons",
+      "directory": "util/basic",
       "imports": [
-        "test"
+        "util/basic/button"
+      ]
+    },
+    {
+      "name": "circle",
+      "directory": "util/basic",
+      "imports": []
+    },
+    {
+      "name": "icon",
+      "directory": "util/basic",
+      "imports": []
+    },
+    {
+      "name": "colored-icon",
+      "directory": "util/basic",
+      "imports": [
+        "util/basic/icon"
+      ]
+    },
+    {
+      "name": "tag",
+      "directory": "util/basic",
+      "imports": [
+      ]
+    },
+    {
+      "name": "lozenge",
+      "directory": "util/basic",
+      "imports": [
+        "util/basic/tag"
+      ]
+    },
+    {
+      "name": "checkbox",
+      "directory": "util/basic",
+      "imports": [
+      ]
+    },
+    {
+      "name": "radio",
+      "directory": "util/basic",
+      "imports": [
+      ]
+    },
+    {
+      "name": "input",
+      "directory": "util/basic",
+      "imports": [
+      ]
+    },
+    {
+      "name": "icon-picker",
+      "directory": "util/basic",
+      "imports": [
+        "util/basic/icon",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "card",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/button",
+        "util/basic/tag",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "card-list",
+      "directory": "util/layout",
+      "imports": [
+        "util/basic/card"
+      ]
+    },
+    {
+      "name": "dropdown-item",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/icon",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "dropdown",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge",
+        "util/advanced/dropdown-item"
+      ]
+    },
+    {
+      "name": "search",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/input"
+      ]
+    },
+    {
+      "name": "select",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge",
+        "util/advanced/search"
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge",
+        "util/basic/radio",
+        "util/advanced/dropdown-item",
+        "util/advanced/dropdown"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button"
+      ]
+    },
+    {
+      "name": "dialog",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/lozenge"
+      ]
+    },
+    {
+      "name": "inline-dialog",
+      "directory": "util/advanced",
+      "imports": [
+        "util/basic/button",
+        "util/basic/input",
+        "util/basic/checkbox",
+        "util/basic/radio",
+        "util/basic/lozenge",
+        "util/basic/tag",
+        "util/basic/dropdown",
+        "util/basic/dropdown-item",
+        "util/basic/select"
       ]
     }
   ]

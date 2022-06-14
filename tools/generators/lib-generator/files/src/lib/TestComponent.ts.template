@@ -1,4 +1,4 @@
-<% imports.forEach(function(imp) { %> import '@app/<%= imp %>'; <% }); %>
+<% imports.forEach(function(imp) { %> import '@nx-error/<%= imp %>'; <% }); %>
 
 export class Component {
 }
