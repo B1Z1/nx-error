@@ -17,8 +17,11 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "@nx-aws-plugin/nx-aws-cache",
       "options": {
+        "awsRegion": "eu-central-1",
+        "awsBucket": "im-nx-cache",
+        "awsProfile": "cache-test",
         "cacheableOperations": ["build", "lint", "test", "e2e"]
       }
     }
